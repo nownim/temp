@@ -1,0 +1,52 @@
+body{
+  width: 412px;
+  margin: auto;
+  overflow: hidden;
+  letter-spacing: -1.5px;
+}
+
+.title{
+  font-size: 16px
+  position : relative;
+
+}
+.content{
+  font-size: 14px;
+}
+section{
+  height: 100vh;
+  text-align : center ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 9%;
+}
+.space{
+  height: 30vh;
+}
+.title-container{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.nextPage{
+  padding: 20%;
+
+}
+#selection{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: auto; //
+}
+option{
+  width: 53vw;
+}
+button{
+  border-radius: 6px;
+  border-width: 1px;
+  width: 100px;
+  background-color: rgba(225, 233, 245, 1)
+}
+i{
+
+}
